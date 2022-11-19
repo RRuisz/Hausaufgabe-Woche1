@@ -90,6 +90,17 @@ main .welcome {
   border: 1px solid red;
 }
 
+/* Zukunftspläne */
+
+.main-content {
+  width: 50%;
+  line-height: 1.5;
+  padding-top: 150px;
+  margin: auto auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 /* KONTAKT SEITE */
 
 .form {
@@ -145,19 +156,14 @@ button:hover {
   color: #530a0a;
 }
 
-button:active {
-}
-
-
-
 /* Footer */
 
-footer{
-    display: flex;
-    background-color: rgb(65, 62, 62);
-    margin-top: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+footer {
+  display: flex;
+  background-color: rgb(65, 62, 62);
+  margin-top: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
