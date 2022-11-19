@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Roman Ruisz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/assets/ms-icon-310x310.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="heading-logo">
+        <a href="index.html"
+          ><img src="/assets/ms-icon-310x310.png" alt=""
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><span class="red">H</span>ome</a>
+          </li>
+          <li>
+            <a href="future.html"><span class="red">Z</span>ukunft</a>
+          </li>
+          <li>
+            <a href="contract.html">
+              <span class="red">K</span><span class="active">ontakt</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="contact-main">
+      <section class="welcome">
+        <div class="welcome-content">
+          <h2>Mein <span class="red">K</span>ontaktformular</h2>
+        </div>
+        <div class="welcome-img">
+          <img src="/assets/img.png" alt="Image of Me" />
+        </div>
+      </section>
+    </main>
+    <main>
+      <section class="form">
+        <form id="contact" action="" method="post">
+            <fieldset>
+            <legend>Kontakt</legend>
+            <ul>
+              <li>
+                <label for="anrede">Anrede</label>
+                <select name="anrede" id="anrede">
+                  <option value="standart" selected disabled>
+                    bitte Auswählen...
+                  </option>
+                  <option value="man">Herr</option>
+                  <option value="woman">Frau</option>
+                  <option value="divers">Divers</option>
+                </select>
+              </li>
+              <li>
+                <label for="fname">Vorname</label>
+                <input type="text" name="fname" id="fname" placeholder="Max" />
+              </li>
+              <li>
+                <label for="lname">Nachname</label>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder="Mustermann"
+                />
+              </li>
+              <li>
+                <label for="email">E-Mail</label>
+                <input
+                  type="email"
+                  name="E-Mail"
+                  id="email"
+                  placeholder="Max@Mustermann.at"
+                />
+              </li>
+              <li>
+                <label for="comment">Ihre Nachricht:</label><br />
+                <textarea
+                  name="comment"
+                  id="comment"
+                  cols="42"
+                  rows="5"
+                ></textarea
+                ><br />
+                <button type="submit" value="contract.html">Absenden!</button>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+        <div>
+            <p>Copyright 2022&#169 <br>
+            Roman Ruisz</p>
+        </div>
+    </footer>
+  </body>
+</html>

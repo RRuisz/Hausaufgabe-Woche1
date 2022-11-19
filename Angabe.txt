@@ -1,0 +1,7 @@
+Hausübung Angabe:
+
+
+    2 Seiten HTML Website bauen mit zusammenhängenden (Globalen) Stylesheet 
+    Formular bauen 
+    Überschriften richtig verwenden 
+    Thema nach Belieben (also Thema bin ich!)

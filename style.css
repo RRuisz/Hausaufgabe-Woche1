@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-weight: normal;
+  hyphens: auto;
+}
+
+body {
+  background-color: #03071e;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.red {
+  color: red;
+  font-size: 2rem;
+}
+
+.active {
+  color: #6a040f;
+}
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  background-color: rgb(20, 46, 80);
+  position: sticky;
+  top: 0;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+}
+
+.heading-logo {
+  position: relative;
+  top: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 35px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 1.5rem;
+  transition: all ease 0.5s;
+}
+
+li a:hover {
+  color: #6a040f;
+}
+
+/* MAIN */
+
+main {
+  margin-top: 50px;
+  min-height: 50vh;
+}
+
+main .welcome {
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+}
+
+.welcome-content {
+  width: 40%;
+  height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.welcome-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  overflow: hidden;
+  border: 1px solid red;
+}
+
+/* KONTAKT SEITE */
+
+.form {
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+  width: 100%;
+  height: 650px;
+}
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 650px;
+  background: #4b4e58;
+  border: 2px solid #86321d;
+}
+label {
+  width: 150px;
+  display: inline-block;
+}
+form ul li {
+  list-style: none;
+  margin: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+  color: white;
+  background-color: #03071e;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+select {
+  background-color: #530a0a;
+  color: white;
+}
+
+button {
+  background-color: #530a0a;
+  padding: 10px;
+  border: 1px solid #03071e;
+  border-radius: 10px;
+  color: white;
+  transition: ease all 0.5s;
+}
+
+button:hover {
+  background-color: #03071e;
+  border: 1px solid #530a0a;
+  color: #530a0a;
+}
+
+button:active {
+}
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: rgb(65, 62, 62);
+    margin-top: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
