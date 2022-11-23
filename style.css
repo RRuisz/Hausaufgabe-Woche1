@@ -204,3 +204,31 @@ footer {
   align-items: center;
   text-align: center;
 }
+
+
+
+@media (max-width: 1200px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .welcome-content {
+    height: 150px;
+  }
+}
+
+
+@media (max-width: 768px){
+  header .heading-logo {
+    display: none;
+  }
+  .main-content{
+    width: 80%;
+  }
+
+  
+}
